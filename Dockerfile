@@ -17,4 +17,4 @@ RUN uv sync
 COPY . .
 
 
-CMD ["uv", "run", "python", "-m", "main"]
+CMD ["uv", "run", "granian", "--interface", "asgi", "main.py", "--log", "--host", "0.0.0.0", "--port", "8000"]

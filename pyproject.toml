@@ -1,5 +1,5 @@
 [project]
-name = "sush"
+name = "plates"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -7,7 +7,9 @@ requires-python = ">=3.10"
 dependencies = [
     "easyocr>=1.7.2",
     "fastapi>=0.115.13",
+    "granian>=2.3.4",
     "levenshtein>=0.27.1",
     "opencv-python>=4.11.0.86",
+    "python-multipart>=0.0.20",
     "ultralytics>=8.3.156",
 ]

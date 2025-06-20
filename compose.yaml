@@ -1,0 +1,9 @@
+name: azs-fefu-plates_recognizing
+
+services:
+  plates_recognizing:
+    container_name: plates_recognizing
+    restart: always
+    build: .
+    ports:
+      - 8000:8000

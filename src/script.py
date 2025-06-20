@@ -205,4 +205,4 @@ def main(input_path, output_path, yolo_path):
             plates_texts[text] = {'confidence': round(float(data['confidence']), 4), 'timestamp': data['timestamp']}
         return plates_texts
     else:
-        return 0
+        return None
