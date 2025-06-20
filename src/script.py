@@ -7,7 +7,7 @@ import Levenshtein
 import os
 
 
-CONFIDENCE_THRESHOLD = 0.3
+CONFIDENCE_THRESHOLD = 0.1
 MIN_PLATE_LENGTH = 5
     
 reader = easyocr.Reader(
